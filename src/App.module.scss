@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Poppins:wght@300&family=Raleway:wght@300&display=swap');
+
+.main{
+    width:100%;
+    height:100%;
+
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Raleway', sans-serif;
+        margin-top:0.5em;
+    }
+
+    .wrap{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width:100%;
+        height:80%;
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+
+
+
+     .inp{
+        margin:0 2em 2em 3em;
+        width:25em;
+        height: 25em;
+        padding:1em;
+        background-color: #22223b;
+        background-color: #22223b;
+        box-shadow: 4px 5px 6px 4px #fca311;
+        border-radius:15px;
+
+            p{
+                padding:0;
+                margin:0;
+                color:#fca311;
+                width:13em;
+                font-size: 0.8em;
+                text-align: center;
+            }
+
+            h2{
+                color:#fca311;
+            }
+
+            input{
+                border:2px solid #fca311;;
+                border-radius: 10px;
+                color:#22223b;
+                width: 12em;
+            }
+
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width:25em;
+            }
+
+            textarea{
+                border:2px solid #fca311;
+                border-radius: 10px;
+                color:#22223b;
+                width: 12em;
+            }
+
+            button{
+                border:2px solid #fca311;
+                color:#fca311;
+                background-color: #22223b;
+                border-radius: 5px;
+                margin:1em 0 1em 0;
+                padding:0.2em;
+
+                &:hover{
+                border:2px solid #22223b;
+                color:#22223b;
+                background-color: #fca311;
+                transition: 0.8s ease;
+                }
+            }
+
+            .red{
+                border:2px solid #22223b;
+                color:#22223b;
+                background-color: #fca311;
+            }
+    }
+
+    .p{
+        background-color: #22223b;
+        box-shadow: 4px 5px 6px 4px #fca311;
+        width:25em;
+        height: 25em;
+        border-radius:15px;
+        color:#fca311;
+        padding:1em;
+        margin:0 2em 2em 3em;
+    }
+}
+
+
+
+
+}
+
+
+
+
